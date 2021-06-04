@@ -1,6 +1,13 @@
-<html>
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+<!DOCTYPE html>
+<html amp4ads>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,minimum-scale=1">
+  <style amp4ads-boilerplate>
+    body{visibility:hidden}
+  </style>
+  <style amp-custom>
+      @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
   body {
@@ -110,7 +117,7 @@
   .button {
     height: 79px;
     width: 300px;
-    margin-top: -25px;
+    margin-top: -30px;
     border-radius: 0 0 8px 8px;
     background: linear-gradient(0deg, #907B53 0%, #C3B28B 100%);
   }
@@ -122,43 +129,40 @@
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 2.63px;
-    line-height: 85px;
+    line-height: 77px;
     text-align: center;
   }
-</style>
-<body>
-  <a href="https://sympathy.legacy.com/en-us/funeral-flowers/gallery/?type=obituary&p=198741657&filter=trees&pn=carl-berry&affiliateid=1064&v=01" target="_blank">
-    <!-- https://sympathy.legacy.com/en-us/funeral-flowers/gallery/?type=obituary&p=198741657&filter=trees&pn=carl-berry&affiliateid=1064&v=01 -->
-  
-    <div class="header">IN LOVING MEMORY</div>
-    <!-- %%PATTERN:fn%% %%PATTERN:ln%% -->
-    <div class="name">Winnie Fukada</div>
-    <div class="wrapper">
-      <div id="image">
-        <img src="trees.png" alt="Tree in field during sunset">
-      </div>
-      <div class="middlebox">
-        <div class="tagline">
-          CELEBRATE THEIR LIFE
+  </style>
+  <script async src="https://cdn.ampproject.org/amp4ads-v0.js"></script>
+  <body>
+    <a href="%%CLICK_URL_UNESC%%%%DEST_URL%%" target="_blank">
+      <div class="header">IN LOVING MEMORY</div>
+      <div class="name">%%PATTERN:fn%% %%PATTERN:ln%%</div>
+      <div class="wrapper">
+        <div id="image">
+          <amp-img  src="%%FILE:PNG1%%" alt="Tree in field during sunset" height=164.18 width=300></amp-img>
         </div>
-        <div class="title">
-          Plant Trees
+        <div class="middlebox">
+          <div class="tagline">
+            CELEBRATE THEIR LIFE
+          </div>
+          <div class="title">
+            Plant Trees
+          </div>
+        </div>
+        <div class="ul">
+          <ul>
+            <li>Help preserve a national or state forest</li>
+            <li>Receive a keepsake dedication certificate</li>
+            <li>Order online or call 888-303-5240</li>
+          </ul>
+        </div>
+        <div class="button">
+          <div id="cta">
+            SELECT A FOREST
+          </div>
         </div>
       </div>
-      <div class="ul">
-        <ul>
-          <li>Help preserve a national or state forest</li>
-          <li>Receive a keepsake dedication certificate</li>
-          <li>Order online or call 888-303-5240</li>
-        </ul>
-      </div>
-      <div class="button">
-        <div id="cta">
-          SELECT A FOREST
-        </div>
-      </div>
-    </div>
-  </a>
-</body>
-
+    </a>
+  </body>
 </html>
